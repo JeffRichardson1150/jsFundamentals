@@ -24,3 +24,34 @@ switch (officeCharacter) {
     default:
         console.log(`I'm sorry, ${officeCharacter}, but do I know you?`);
 }
+
+let FB = 15;
+
+switch (FB) {
+    case FB % 5 && FB % 3:
+        console.log("FizzBuzz")
+        break;
+    case FB % 5:
+        console.log("Buzz");
+        break;
+    case FB % 3:
+        console.log("Fizz");
+        break;
+    default:
+}
+
+let FB = 5
+
+switch(true) {
+    case (FB % 5 == 0 && FB % 3 == 0):
+        console.log("FizzBuzz");
+        break;
+    case (FB % 5 == 0):
+        console.log("Buzz");
+        break;
+    case (FB % 3 == 0):
+        console.log("Fizz");
+        break;
+    default:
+        console.log(FB);
+}
