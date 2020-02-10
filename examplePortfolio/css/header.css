@@ -1,0 +1,6 @@
+.jumbotron {
+    background: url(../assets/autumnPath.jpg) center bottom;
+    color: whitesmoke;
+    background-size: cover;
+    height: 60vh;
+}

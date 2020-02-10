@@ -12,6 +12,7 @@ let food = ['Pecan Pie', 'Shrimp', 'Quesadilla', 'Cheese Cake', 'Hotdog'];
 
 // food.forEach(foodItem => console.log(foodItem)); // use a fat arrow function to iterate through
 food.forEach((foodItem, index, array) => console.log(foodItem, index, array)); // use a fat arrow function to iterate through
+// forEach : perform a function for each element in the array (food)...the first argument is required (the current element), 2nd argument (optional) is the index, 3rd argument (optional) is the array
 
 
 // food.forEach(individualFoodItem => {

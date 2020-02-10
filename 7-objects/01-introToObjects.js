@@ -117,6 +117,9 @@ let garden = {
     size: 10
 }
 
+// console.log(garden['vegetable']);  // returns "zucchini"
+// console.log(garden.vegetable);  // returns "zucchini"
+
 // let test = Object.keys(garden);  // returns an array of all keys in the object
 // console.log(test);
 // console.log(typeof test[0]);
@@ -129,10 +132,11 @@ let garden = {
     Create a new key/value
 */
 let baking = {};
+console.log(baking);
 baking['zucchini'] = 'better make some bread';
 console.log(baking);
 
-console.log(baking[garden['vegetable']]);
+// console.log(baking[garden['vegetable']]); // ?? this doesn't seem to apply to anything in here
 
 baking['flour'] = 'self rising';
 console.log(baking);
